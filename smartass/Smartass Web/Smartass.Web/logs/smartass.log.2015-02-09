@@ -1,0 +1,51 @@
+INFO 9 smartass - 85   running step AlchemyImageKeywordsStep
+2015-02-09 19:31:23,476 INFO  [11] smartass - running step AlchemyImageKeywordsStep
+2015-02-09 19:31:23,491 INFO  [11] smartass - running step ClarifaiImageKeywordStep
+2015-02-09 19:34:03,387 INFO  [9] smartass - running step ReceiveUploadedFileStep
+2015-02-09 19:34:03,446 INFO  [9] smartass - running step ExposeUploadedFileStep
+2015-02-09 19:34:04,032 INFO  [7] smartass - running step AlchemyImageKeywordsStep
+2015-02-09 19:34:04,036 INFO  [7] smartass - running step ClarifaiImageKeywordStep
+2015-02-09 19:34:05,669 ERROR [9] smartass - ProcessAndLog
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-09 19:34:06,306 INFO  [11] smartass - running step GoogleImageSearchStep
+2015-02-09 19:34:14,721 INFO  [9] smartass - running step ParseGoogleImageSearchStep
+2015-02-09 19:34:14,797 INFO  [11] smartass - running step FinalizeStep
+2015-02-09 19:43:02,978 INFO  [10] smartass - running step ReceiveUploadedFileStep
+2015-02-09 19:43:03,043 INFO  [12] smartass - running step ExposeUploadedFileStep
+2015-02-09 19:43:04,257 INFO  [14] smartass - running step AlchemyImageKeywordsStep
+2015-02-09 19:43:04,261 INFO  [14] smartass - running step ClarifaiImageKeywordStep
+2015-02-09 19:43:06,527 ERROR [11] smartass - exception during processing: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-09 19:43:06,786 INFO  [10] smartass - running step GoogleImageSearchStep
+2015-02-09 19:43:12,863 INFO  [9] smartass - running step ParseGoogleImageSearchStep
+2015-02-09 19:43:12,939 INFO  [12] smartass - running step FinalizeStep
+2015-02-09 19:47:45,541 INFO  [12] smartass - running step ReceiveUploadedFileStep
+2015-02-09 19:47:45,604 INFO  [13] smartass - running step ExposeUploadedFileStep
+2015-02-09 19:47:46,143 INFO  [13] smartass - running step AlchemyImageKeywordsStep
+2015-02-09 19:47:46,147 INFO  [13] smartass - running step ClarifaiImageKeywordStep
+2015-02-09 19:47:48,300 ERROR [11] smartass - exception during processing: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-09 19:47:49,368 INFO  [12] smartass - running step GoogleImageSearchStep
+2015-02-09 19:47:55,696 INFO  [10] smartass - running step ParseGoogleImageSearchStep
+2015-02-09 19:47:55,769 INFO  [12] smartass - running step FinalizeStep

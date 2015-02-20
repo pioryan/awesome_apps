@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartass", "Smartass\Smartass.csproj", "{67562AF7-D4CB-4AB6-B63A-4AAE30799901}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ys-research.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Smartass\\Smartass.csproj
+		SccProjectName1 = Smartass
+		SccLocalPath1 = Smartass
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67562AF7-D4CB-4AB6-B63A-4AAE30799901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67562AF7-D4CB-4AB6-B63A-4AAE30799901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67562AF7-D4CB-4AB6-B63A-4AAE30799901}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67562AF7-D4CB-4AB6-B63A-4AAE30799901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67562AF7-D4CB-4AB6-B63A-4AAE30799901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67562AF7-D4CB-4AB6-B63A-4AAE30799901}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Smartass\Smartass.csproj
+	EndGlobalSection
+EndGlobal

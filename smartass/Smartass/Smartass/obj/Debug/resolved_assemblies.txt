@@ -1,0 +1,2 @@
+C:\dev\Smartass\Smartass\bin\Debug\Smartass.dll
+C:\dev\Smartass\Components\googleglass-1.7.1\lib\android\GoogleGlassBindings.dll

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartass.Web", "Smartass.Web\Smartass.Web.csproj", "{B45FAB8B-9E6D-4B08-8BB0-7B40E3A645E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartass.Web.Tests", "Smartass.Web.Tests\Smartass.Web.Tests.csproj", "{015881B2-EDDE-4BBC-8C5B-B0FD647F4857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartass", "Smartass\Smartass.csproj", "{434984A8-CFC1-4E7A-A5B5-32C2B8BE26AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartass.Tests", "Smartass.Tests\Smartass.Tests.csproj", "{8A7B6E21-F624-452A-8BCD-0AC2637F0685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartass.WolframAlpha", "Smartass.WolframAlpha\Smartass.WolframAlpha.csproj", "{9B0C5589-0758-44AC-A383-924BBC249E3A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ys-research.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Smartass.Tests\\Smartass.Tests.csproj
+		SccProjectName1 = Smartass.Tests
+		SccLocalPath1 = Smartass.Tests
+		SccProjectUniqueName2 = Smartass.Web.Tests\\Smartass.Web.Tests.csproj
+		SccProjectName2 = Smartass.Web.Tests
+		SccLocalPath2 = Smartass.Web.Tests
+		SccProjectUniqueName3 = Smartass.Web\\Smartass.Web.csproj
+		SccProjectName3 = Smartass.Web
+		SccLocalPath3 = Smartass.Web
+		SccProjectUniqueName4 = Smartass\\Smartass.csproj
+		SccProjectName4 = Smartass
+		SccLocalPath4 = Smartass
+		SccProjectUniqueName5 = Smartass.WolframAlpha\\Smartass.WolframAlpha.csproj
+		SccProjectName5 = Smartass.WolframAlpha
+		SccLocalPath5 = Smartass.WolframAlpha
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45FAB8B-9E6D-4B08-8BB0-7B40E3A645E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45FAB8B-9E6D-4B08-8BB0-7B40E3A645E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45FAB8B-9E6D-4B08-8BB0-7B40E3A645E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45FAB8B-9E6D-4B08-8BB0-7B40E3A645E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015881B2-EDDE-4BBC-8C5B-B0FD647F4857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015881B2-EDDE-4BBC-8C5B-B0FD647F4857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015881B2-EDDE-4BBC-8C5B-B0FD647F4857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015881B2-EDDE-4BBC-8C5B-B0FD647F4857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434984A8-CFC1-4E7A-A5B5-32C2B8BE26AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434984A8-CFC1-4E7A-A5B5-32C2B8BE26AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434984A8-CFC1-4E7A-A5B5-32C2B8BE26AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434984A8-CFC1-4E7A-A5B5-32C2B8BE26AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7B6E21-F624-452A-8BCD-0AC2637F0685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7B6E21-F624-452A-8BCD-0AC2637F0685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7B6E21-F624-452A-8BCD-0AC2637F0685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7B6E21-F624-452A-8BCD-0AC2637F0685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0C5589-0758-44AC-A383-924BBC249E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0C5589-0758-44AC-A383-924BBC249E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0C5589-0758-44AC-A383-924BBC249E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0C5589-0758-44AC-A383-924BBC249E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

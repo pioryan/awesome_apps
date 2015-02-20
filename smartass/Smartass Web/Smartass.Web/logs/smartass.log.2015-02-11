@@ -1,0 +1,80 @@
+2015-02-11 19:53:28,205 INFO  [12] smartass - running step ReceiveUploadedFileStep
+2015-02-11 19:53:28,433 INFO  [14] smartass - running step ExposeUploadedFileStep
+2015-02-11 19:53:39,920 INFO  [11] smartass - running step AlchemyImageKeywordsStep
+2015-02-11 19:53:39,927 INFO  [11] smartass - running step ClarifaiImageKeywordStep
+2015-02-11 19:53:41,207 ERROR [10] smartass - exception during processing: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (FORBIDDEN).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-11 19:53:47,796 INFO  [12] smartass - running step GoogleImageSearchStep
+2015-02-11 19:54:05,288 INFO  [12] smartass - running step ParseGoogleImageSearchStep
+2015-02-11 19:54:05,377 INFO  [18] smartass - running step FinalizeStep
+2015-02-11 19:54:34,611 INFO  [12] smartass - running step ReceiveUploadedFileStep
+2015-02-11 19:54:34,744 INFO  [19] smartass - running step ExposeUploadedFileStep
+2015-02-11 19:54:38,344 INFO  [12] smartass - running step AlchemyImageKeywordsStep
+2015-02-11 19:54:38,345 INFO  [12] smartass - running step ClarifaiImageKeywordStep
+2015-02-11 19:54:39,318 ERROR [18] smartass - exception during processing: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (FORBIDDEN).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-11 19:54:45,349 INFO  [12] smartass - running step GoogleImageSearchStep
+2015-02-11 19:54:59,407 INFO  [12] smartass - running step ParseGoogleImageSearchStep
+2015-02-11 19:54:59,485 INFO  [18] smartass - running step FinalizeStep
+2015-02-11 19:56:24,345 INFO  [19] smartass - running step ReceiveUploadedFileStep
+2015-02-11 19:56:39,058 INFO  [17] smartass - running step ExposeUploadedFileStep
+2015-02-11 19:56:40,146 INFO  [13] smartass - running step AlchemyImageKeywordsStep
+2015-02-11 19:56:40,147 INFO  [13] smartass - running step ClarifaiImageKeywordStep
+2015-02-11 19:56:41,253 ERROR [17] smartass - exception during processing: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (FORBIDDEN).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-11 19:56:44,174 INFO  [17] smartass - running step GoogleImageSearchStep
+2015-02-11 19:56:58,843 INFO  [17] smartass - running step ParseGoogleImageSearchStep
+2015-02-11 19:56:58,893 INFO  [31] smartass - running step FinalizeStep
+2015-02-11 19:57:34,434 INFO  [17] smartass - running step ReceiveUploadedFileStep
+2015-02-11 19:57:34,458 INFO  [19] smartass - running step ExposeUploadedFileStep
+2015-02-11 19:57:34,753 INFO  [34] smartass - running step AlchemyImageKeywordsStep
+2015-02-11 19:57:34,754 INFO  [34] smartass - running step ClarifaiImageKeywordStep
+2015-02-11 19:57:35,720 ERROR [20] smartass - exception during processing: 
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (FORBIDDEN).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Smartass.Steps.Uploading.ClarifaiImageKeywordStep.<ProcessAsync>d__7.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\Uploading\ClarifaiImageKeywordStep.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-11 19:57:39,208 INFO  [34] smartass - running step GoogleImageSearchStep
+2015-02-11 19:57:53,724 INFO  [34] smartass - running step ParseGoogleImageSearchStep
+2015-02-11 19:57:53,771 INFO  [13] smartass - running step FinalizeStep
+2015-02-11 20:03:20,661 INFO  [9] smartass - running step RunQueryStep
+2015-02-11 20:04:09,814 ERROR [9] smartass - exception during processing: 
+System.InvalidOperationException: There is an error in XML document (2, 2). ---> System.InvalidOperationException: <queryresult xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderQueryResult.Read3_QueryResult()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(Stream stream)
+   at Smartass.WolframAlpha.Steps.Query.RunQueryStep.<ProcessAsync>d__0.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass.WolframAlpha\Steps\Query\RunQueryStep.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-11 20:05:28,065 INFO  [5] smartass - running step RunQueryStep
+2015-02-11 20:09:22,801 INFO  [9] smartass - running step RunQueryStep
+2015-02-11 20:11:11,372 INFO  [9] smartass - running step RunQueryStep

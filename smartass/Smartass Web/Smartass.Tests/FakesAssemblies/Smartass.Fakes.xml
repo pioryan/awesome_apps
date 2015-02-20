@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Smartass.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Smartass.Models.Fakes.ShimPlan">
+            <summary>Shim type of Smartass.Models.Plan</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.ShimPlan.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.ShimPlan.#ctor(Smartass.Models.Plan)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.ShimPlan.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.ShimPlan.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.ConstructorIPlanRequest">
+            <summary>Sets the shim of Plan.Plan(IPlanRequest request)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.DocketsGet">
+            <summary>Sets the shim of Plan.get_Dockets()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.DocketsSetIListOfIDocket">
+            <summary>Sets the shim of Plan.set_Dockets(IList`1&lt;IDocket&gt; value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.HttpClientHandlerGet">
+            <summary>Sets the shim of Plan.get_HttpClientHandler()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.HttpClientHandlerSetHttpClientHandler">
+            <summary>Sets the shim of Plan.set_HttpClientHandler(HttpClientHandler value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.RequestGet">
+            <summary>Sets the shim of Plan.get_Request()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.RequestSetIPlanRequest">
+            <summary>Sets the shim of Plan.set_Request(IPlanRequest value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.ResultGet">
+            <summary>Sets the shim of Plan.get_Result()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.ResultSetIPlanResult">
+            <summary>Sets the shim of Plan.set_Result(IPlanResult value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Fakes.ShimPlan.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.DocketsGet">
+            <summary>Sets the shim of Plan.get_Dockets()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.DocketsSetIListOfIDocket">
+            <summary>Sets the shim of Plan.set_Dockets(IList`1&lt;IDocket&gt; value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.HttpClientHandlerGet">
+            <summary>Sets the shim of Plan.get_HttpClientHandler()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.HttpClientHandlerSetHttpClientHandler">
+            <summary>Sets the shim of Plan.set_HttpClientHandler(HttpClientHandler value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.RequestGet">
+            <summary>Sets the shim of Plan.get_Request()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.RequestSetIPlanRequest">
+            <summary>Sets the shim of Plan.set_Request(IPlanRequest value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.ResultGet">
+            <summary>Sets the shim of Plan.get_Result()</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.ShimPlan.AllInstances.ResultSetIPlanResult">
+            <summary>Sets the shim of Plan.set_Result(IPlanResult value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Fakes.StubIDocket">
+            <summary>Stub type of Smartass.Models.IDocket</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.StubIDocket.#ctor">
+            <summary>Initializes a new instance of type StubIDocket</summary>
+        </member>
+        <member name="T:Smartass.Models.Fakes.StubIPlanRequest">
+            <summary>Stub type of Smartass.Models.IPlanRequest</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.StubIPlanRequest.#ctor">
+            <summary>Initializes a new instance of type StubIPlanRequest</summary>
+        </member>
+        <member name="T:Smartass.Models.Fakes.StubIPlanResult">
+            <summary>Stub type of Smartass.Models.IPlanResult</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.StubIPlanResult.#ctor">
+            <summary>Initializes a new instance of type StubIPlanResult</summary>
+        </member>
+        <member name="T:Smartass.Models.Fakes.StubPlan">
+            <summary>Stub type of Smartass.Models.Plan</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.StubPlan.#ctor(Smartass.Models.IPlanRequest)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Fakes.StubPlan.InitializeStub">
+            <summary>Initializes a new instance of type StubPlan</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.StubPlan.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.StubPlan.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Fakes.StubPlan.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer">
+            <summary>Shim type of Smartass.Models.Uploading.SortDescendingComparer</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.#ctor(Smartass.Models.Uploading.SortDescendingComparer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.Bind(System.Collections.IComparer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.Bind(System.Collections.Generic.IComparer{System.Double})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.CompareDoubleDouble">
+            <summary>Sets the shim of SortDescendingComparer.Compare(Double x, Double y)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.Constructor">
+            <summary>Sets the shim of SortDescendingComparer.SortDescendingComparer()</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimSortDescendingComparer.AllInstances.CompareDoubleDouble">
+            <summary>Sets the shim of SortDescendingComparer.Compare(Double x, Double y)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase">
+            <summary>Shim type of Smartass.Models.Uploading.UploadingDocketBase</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.#ctor(Smartass.Models.Uploading.UploadingDocketBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.Bind(Smartass.Models.IDocket)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.Constructor">
+            <summary>Sets the shim of UploadingDocketBase.UploadingDocketBase()</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimUploadingDocketBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimUploadingRequest">
+            <summary>Shim type of Smartass.Models.Uploading.UploadingRequest</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.#ctor(Smartass.Models.Uploading.UploadingRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.Bind(Smartass.Models.IPlanRequest)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.ConstructorHttpRequestMessage">
+            <summary>Sets the shim of UploadingRequest.UploadingRequest(HttpRequestMessage request)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.RequestGet">
+            <summary>Sets the shim of UploadingRequest.get_Request()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.RequestSetHttpRequestMessage">
+            <summary>Sets the shim of UploadingRequest.set_Request(HttpRequestMessage value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.AllInstances.RequestGet">
+            <summary>Sets the shim of UploadingRequest.get_Request()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingRequest.AllInstances.RequestSetHttpRequestMessage">
+            <summary>Sets the shim of UploadingRequest.set_Request(HttpRequestMessage value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimUploadingResult">
+            <summary>Shim type of Smartass.Models.Uploading.UploadingResult</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingResult.#ctor(Smartass.Models.Uploading.UploadingResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.ShimUploadingResult.Bind(Smartass.Models.IPlanResult)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AlchemyKeywordsGet">
+            <summary>Sets the shim of UploadingResult.get_AlchemyKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AlchemyKeywordsSetURLGetRankedImageKeywordsResponse">
+            <summary>Sets the shim of UploadingResult.set_AlchemyKeywords(URLGetRankedImageKeywordsResponse value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.BestGuessesGet">
+            <summary>Sets the shim of UploadingResult.get_BestGuesses()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.BestGuessesSetSortedListOfDoubleString">
+            <summary>Sets the shim of UploadingResult.set_BestGuesses(SortedList`2&lt;Double,String&gt; value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.ClarifaiKeywordsGet">
+            <summary>Sets the shim of UploadingResult.get_ClarifaiKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.ClarifaiKeywordsSetClarifaiImageKeywords">
+            <summary>Sets the shim of UploadingResult.set_ClarifaiKeywords(ClarifaiImageKeywords value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.Constructor">
+            <summary>Sets the shim of UploadingResult.UploadingResult()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.GoogleBestGuessGet">
+            <summary>Sets the shim of UploadingResult.get_GoogleBestGuess()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.GoogleBestGuessSetString">
+            <summary>Sets the shim of UploadingResult.set_GoogleBestGuess(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.GoogleKeywordsGet">
+            <summary>Sets the shim of UploadingResult.get_GoogleKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.GoogleKeywordsSetDictionaryOfStringInt32">
+            <summary>Sets the shim of UploadingResult.set_GoogleKeywords(Dictionary`2&lt;String,Int32&gt; value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.AlchemyKeywordsGet">
+            <summary>Sets the shim of UploadingResult.get_AlchemyKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.AlchemyKeywordsSetURLGetRankedImageKeywordsResponse">
+            <summary>Sets the shim of UploadingResult.set_AlchemyKeywords(URLGetRankedImageKeywordsResponse value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.BestGuessesGet">
+            <summary>Sets the shim of UploadingResult.get_BestGuesses()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.BestGuessesSetSortedListOfDoubleString">
+            <summary>Sets the shim of UploadingResult.set_BestGuesses(SortedList`2&lt;Double,String&gt; value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.ClarifaiKeywordsGet">
+            <summary>Sets the shim of UploadingResult.get_ClarifaiKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.ClarifaiKeywordsSetClarifaiImageKeywords">
+            <summary>Sets the shim of UploadingResult.set_ClarifaiKeywords(ClarifaiImageKeywords value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.GoogleBestGuessGet">
+            <summary>Sets the shim of UploadingResult.get_GoogleBestGuess()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.GoogleBestGuessSetString">
+            <summary>Sets the shim of UploadingResult.set_GoogleBestGuess(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.GoogleKeywordsGet">
+            <summary>Sets the shim of UploadingResult.get_GoogleKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.ShimUploadingResult.AllInstances.GoogleKeywordsSetDictionaryOfStringInt32">
+            <summary>Sets the shim of UploadingResult.set_GoogleKeywords(Dictionary`2&lt;String,Int32&gt; value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer">
+            <summary>Stub type of Smartass.Models.Uploading.SortDescendingComparer</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.Compare(System.Double,System.Double)">
+            <summary>Sets the stub of SortDescendingComparer.Compare(Double x, Double y)</summary>
+        </member>
+        <member name="F:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.CompareDoubleDouble">
+            <summary>Sets the stub of SortDescendingComparer.Compare(Double x, Double y)</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.InitializeStub">
+            <summary>Initializes a new instance of type StubSortDescendingComparer</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubSortDescendingComparer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.StubUploadingDocketBase">
+            <summary>Stub type of Smartass.Models.Uploading.UploadingDocketBase</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubUploadingDocketBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubUploadingDocketBase.InitializeStub">
+            <summary>Initializes a new instance of type StubUploadingDocketBase</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingDocketBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingDocketBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingDocketBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.StubUploadingRequest">
+            <summary>Stub type of Smartass.Models.Uploading.UploadingRequest</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubUploadingRequest.#ctor(System.Net.Http.HttpRequestMessage)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubUploadingRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubUploadingRequest</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.Fakes.StubUploadingResult">
+            <summary>Stub type of Smartass.Models.Uploading.UploadingResult</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubUploadingResult.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.Fakes.StubUploadingResult.InitializeStub">
+            <summary>Initializes a new instance of type StubUploadingResult</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingResult.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingResult.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.Fakes.StubUploadingResult.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword">
+            <summary>Shim type of Smartass.Models.Uploading.JsonAlchemy.ImageKeyword</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.#ctor(Smartass.Models.Uploading.JsonAlchemy.ImageKeyword)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.Constructor">
+            <summary>Sets the shim of ImageKeyword.ImageKeyword()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.ScoreGet">
+            <summary>Sets the shim of ImageKeyword.get_Score()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.ScoreSetSingle">
+            <summary>Sets the shim of ImageKeyword.set_Score(Single value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.TextGet">
+            <summary>Sets the shim of ImageKeyword.get_Text()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.TextSetString">
+            <summary>Sets the shim of ImageKeyword.set_Text(String value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.AllInstances.ScoreGet">
+            <summary>Sets the shim of ImageKeyword.get_Score()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.AllInstances.ScoreSetSingle">
+            <summary>Sets the shim of ImageKeyword.set_Score(Single value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.AllInstances.TextGet">
+            <summary>Sets the shim of ImageKeyword.get_Text()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimImageKeyword.AllInstances.TextSetString">
+            <summary>Sets the shim of ImageKeyword.set_Text(String value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse">
+            <summary>Shim type of Smartass.Models.Uploading.JsonAlchemy.URLGetRankedImageKeywordsResponse</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.#ctor(Smartass.Models.Uploading.JsonAlchemy.URLGetRankedImageKeywordsResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.Constructor">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.URLGetRankedImageKeywordsResponse()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.ImageKeywordsGet">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.get_ImageKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.ImageKeywordsSetImageKeywordArray">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.set_ImageKeywords(ImageKeyword[] value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.StatusGet">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.get_Status()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.StatusSetString">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.set_Status(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.UrlGet">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.get_Url()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.UrlSetString">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.set_Url(String value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances.ImageKeywordsGet">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.get_ImageKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances.ImageKeywordsSetImageKeywordArray">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.set_ImageKeywords(ImageKeyword[] value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances.StatusGet">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.get_Status()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances.StatusSetString">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.set_Status(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances.UrlGet">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.get_Url()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.ShimURLGetRankedImageKeywordsResponse.AllInstances.UrlSetString">
+            <summary>Sets the shim of URLGetRankedImageKeywordsResponse.set_Url(String value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubImageKeyword">
+            <summary>Stub type of Smartass.Models.Uploading.JsonAlchemy.ImageKeyword</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubImageKeyword.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubImageKeyword.InitializeStub">
+            <summary>Initializes a new instance of type StubImageKeyword</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubImageKeyword.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubImageKeyword.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubImageKeyword.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubURLGetRankedImageKeywordsResponse">
+            <summary>Stub type of Smartass.Models.Uploading.JsonAlchemy.URLGetRankedImageKeywordsResponse</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubURLGetRankedImageKeywordsResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubURLGetRankedImageKeywordsResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubURLGetRankedImageKeywordsResponse</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubURLGetRankedImageKeywordsResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubURLGetRankedImageKeywordsResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonAlchemy.Fakes.StubURLGetRankedImageKeywordsResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword">
+            <summary>Shim type of Smartass.Models.Uploading.JsonClarifai.ClarifaiImageKeyword</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.#ctor(Smartass.Models.Uploading.JsonClarifai.ClarifaiImageKeyword)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.Constructor">
+            <summary>Sets the shim of ClarifaiImageKeyword.ClarifaiImageKeyword()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.NameGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_Name()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.NameSetString">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_Name(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.NearestUrlsGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_NearestUrls()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.NearestUrlsSetStringArray">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_NearestUrls(String[] value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.PredictedClassesGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_PredictedClasses()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.PredictedClassesSetStringArray">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_PredictedClasses(String[] value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.UrlGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_Url()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.UrlSetString">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_Url(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.predictedProbabilitiesGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_predictedProbabilities()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.predictedProbabilitiesSetSingleArray">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_predictedProbabilities(Single[] value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.NameGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_Name()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.NameSetString">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_Name(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.NearestUrlsGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_NearestUrls()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.NearestUrlsSetStringArray">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_NearestUrls(String[] value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.PredictedClassesGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_PredictedClasses()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.PredictedClassesSetStringArray">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_PredictedClasses(String[] value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.UrlGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_Url()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.UrlSetString">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_Url(String value)</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.predictedProbabilitiesGet">
+            <summary>Sets the shim of ClarifaiImageKeyword.get_predictedProbabilities()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeyword.AllInstances.predictedProbabilitiesSetSingleArray">
+            <summary>Sets the shim of ClarifaiImageKeyword.set_predictedProbabilities(Single[] value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords">
+            <summary>Shim type of Smartass.Models.Uploading.JsonClarifai.ClarifaiImageKeywords</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.#ctor(Smartass.Models.Uploading.JsonClarifai.ClarifaiImageKeywords)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.Constructor">
+            <summary>Sets the shim of ClarifaiImageKeywords.ClarifaiImageKeywords()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.FilesGet">
+            <summary>Sets the shim of ClarifaiImageKeywords.get_Files()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.FilesSetClarifaiImageKeywordArray">
+            <summary>Sets the shim of ClarifaiImageKeywords.set_Files(ClarifaiImageKeyword[] value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.AllInstances.FilesGet">
+            <summary>Sets the shim of ClarifaiImageKeywords.get_Files()</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.ShimClarifaiImageKeywords.AllInstances.FilesSetClarifaiImageKeywordArray">
+            <summary>Sets the shim of ClarifaiImageKeywords.set_Files(ClarifaiImageKeyword[] value)</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeyword">
+            <summary>Stub type of Smartass.Models.Uploading.JsonClarifai.ClarifaiImageKeyword</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeyword.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeyword.InitializeStub">
+            <summary>Initializes a new instance of type StubClarifaiImageKeyword</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeyword.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeyword.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeyword.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeywords">
+            <summary>Stub type of Smartass.Models.Uploading.JsonClarifai.ClarifaiImageKeywords</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeywords.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeywords.InitializeStub">
+            <summary>Initializes a new instance of type StubClarifaiImageKeywords</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeywords.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeywords.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Models.Uploading.JsonClarifai.Fakes.StubClarifaiImageKeywords.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Steps.Fakes.ShimStepBase">
+            <summary>Shim type of Smartass.Steps.StepBase</summary>
+        </member>
+        <member name="M:Smartass.Steps.Fakes.ShimStepBase.#ctor(Smartass.Steps.StepBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Smartass.Steps.Fakes.ShimStepBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Steps.Fakes.ShimStepBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.ChainNextStepBaseStepBaseArray">
+            <summary>Sets the shim of StepBase.ChainNext(StepBase next, StepBase[] asyncSubSteps)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.Constructor">
+            <summary>Sets the shim of StepBase.StepBase()</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.NextAsyncPlan">
+            <summary>Sets the shim of StepBase.NextAsync(Plan plan)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.ProcessAndLogAsyncPlan">
+            <summary>Sets the shim of StepBase.ProcessAndLogAsync(Plan plan)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.RunAsyncPlan">
+            <summary>Sets the shim of StepBase.RunAsync(Plan plan)</summary>
+        </member>
+        <member name="T:Smartass.Steps.Fakes.ShimStepBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.AllInstances.ChainNextStepBaseStepBaseArray">
+            <summary>Sets the shim of StepBase.ChainNext(StepBase next, StepBase[] asyncSubSteps)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.AllInstances.NextAsyncPlan">
+            <summary>Sets the shim of StepBase.NextAsync(Plan plan)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.AllInstances.ProcessAndLogAsyncPlan">
+            <summary>Sets the shim of StepBase.ProcessAndLogAsync(Plan plan)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.ShimStepBase.AllInstances.RunAsyncPlan">
+            <summary>Sets the shim of StepBase.RunAsync(Plan plan)</summary>
+        </member>
+        <member name="T:Smartass.Steps.Fakes.StubStepBase">
+            <summary>Stub type of Smartass.Steps.StepBase</summary>
+        </member>
+        <member name="M:Smartass.Steps.Fakes.StubStepBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Smartass.Steps.Fakes.StubStepBase.InitializeStub">
+            <summary>Initializes a new instance of type StubStepBase</summary>
+        </member>
+        <member name="M:Smartass.Steps.Fakes.StubStepBase.ProcessAsync(Smartass.Models.Plan)">
+            <summary>Sets the stub of StepBase.ProcessAsync(Plan plan)</summary>
+        </member>
+        <member name="F:Smartass.Steps.Fakes.StubStepBase.ProcessAsyncPlan">
+            <summary>Sets the stub of StepBase.ProcessAsync(Plan plan)</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.StubStepBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.StubStepBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Smartass.Steps.Fakes.StubStepBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Smartass.Steps.Uploading.Fakes.ShimUploadingChain">
+            <summary>Shim type of Smartass.Steps.Uploading.UploadingChain</summary>
+        </member>
+        <member name="M:Smartass.Steps.Uploading.Fakes.ShimUploadingChain.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Smartass.Steps.Uploading.Fakes.ShimUploadingChain.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Smartass.Steps.Uploading.Fakes.ShimUploadingChain.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Steps.Uploading.Fakes.ShimUploadingChain.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Smartass.Steps.Uploading.Fakes.ShimUploadingChain.Create">
+            <summary>Sets the shim of UploadingChain.Create()</summary>
+        </member>
+    </members>
+</doc>

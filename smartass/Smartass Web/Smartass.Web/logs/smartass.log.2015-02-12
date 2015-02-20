@@ -1,0 +1,237 @@
+2015-02-12 14:28:14,107 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 14:44:48,722 INFO  [11] smartass - running step RunQueryStep
+2015-02-12 15:06:43,459 INFO  [8] smartass - running step RunQueryStep
+2015-02-12 15:43:22,516 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 15:43:29,356 ERROR [9] smartass - exception during processing: 
+System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.QueryResult'. ---> System.InvalidOperationException: There was an error reflecting property 'Pods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Pod'. ---> System.InvalidOperationException: There was an error reflecting property 'Subpods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Subpod'. ---> System.InvalidOperationException: There was an error reflecting property 'Image'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Image'. ---> System.InvalidOperationException: There was an error reflecting property 'DocumentNodes'. ---> System.InvalidOperationException: There was an error reflecting type 'System.Xml.XmlElement'. ---> System.InvalidOperationException: System.Xml.XmlElement cannot be used as: 'xml attribute'.
+   at System.Xml.Serialization.XmlReflectionImporter.CheckContext(TypeDesc typeDesc, ImportContext context)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportSpecialMapping(Type type, TypeDesc typeDesc, String ns, ImportContext context, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Smartass.WolframAlpha.Steps.Query.RunQueryStep.<ProcessAsync>d__2.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass.WolframAlpha\Steps\Query\RunQueryStep.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-12 15:44:02,375 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 15:44:08,133 ERROR [9] smartass - exception during processing: 
+System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.QueryResult'. ---> System.InvalidOperationException: There was an error reflecting property 'Pods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Pod'. ---> System.InvalidOperationException: There was an error reflecting property 'Subpods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Subpod'. ---> System.InvalidOperationException: There was an error reflecting property 'Image'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Image'. ---> System.InvalidOperationException: There was an error reflecting property 'DocumentNodes'. ---> System.InvalidOperationException: There was an error reflecting type 'System.Xml.XmlElement'. ---> System.InvalidOperationException: System.Xml.XmlElement cannot be used as: 'xml attribute'.
+   at System.Xml.Serialization.XmlReflectionImporter.CheckContext(TypeDesc typeDesc, ImportContext context)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportSpecialMapping(Type type, TypeDesc typeDesc, String ns, ImportContext context, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Smartass.WolframAlpha.Steps.Query.RunQueryStep.<ProcessAsync>d__2.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass.WolframAlpha\Steps\Query\RunQueryStep.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-12 15:44:10,861 INFO  [13] smartass - running step RunQueryStep
+2015-02-12 15:44:19,742 ERROR [9] smartass - exception during processing: 
+System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.QueryResult'. ---> System.InvalidOperationException: There was an error reflecting property 'Pods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Pod'. ---> System.InvalidOperationException: There was an error reflecting property 'Subpods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Subpod'. ---> System.InvalidOperationException: There was an error reflecting property 'Image'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Image'. ---> System.InvalidOperationException: There was an error reflecting property 'DocumentNodes'. ---> System.InvalidOperationException: There was an error reflecting type 'System.Xml.XmlElement'. ---> System.InvalidOperationException: System.Xml.XmlElement cannot be used as: 'xml attribute'.
+   at System.Xml.Serialization.XmlReflectionImporter.CheckContext(TypeDesc typeDesc, ImportContext context)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportSpecialMapping(Type type, TypeDesc typeDesc, String ns, ImportContext context, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Smartass.WolframAlpha.Steps.Query.RunQueryStep.<ProcessAsync>d__2.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass.WolframAlpha\Steps\Query\RunQueryStep.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-12 15:44:51,934 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 15:45:12,010 ERROR [9] smartass - exception during processing: 
+System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.QueryResult'. ---> System.InvalidOperationException: There was an error reflecting property 'Pods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Pod'. ---> System.InvalidOperationException: There was an error reflecting property 'Subpods'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Subpod'. ---> System.InvalidOperationException: There was an error reflecting property 'Image'. ---> System.InvalidOperationException: There was an error reflecting type 'Smartass.WolframAlpha.Models.Xml.Image'. ---> System.InvalidOperationException: There was an error reflecting property 'DocumentNodes'. ---> System.InvalidOperationException: There was an error reflecting type 'System.Xml.XmlElement'. ---> System.InvalidOperationException: System.Xml.XmlElement cannot be used as: 'xml attribute'.
+   at System.Xml.Serialization.XmlReflectionImporter.CheckContext(TypeDesc typeDesc, ImportContext context)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportSpecialMapping(Type type, TypeDesc typeDesc, String ns, ImportContext context, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Smartass.WolframAlpha.Steps.Query.RunQueryStep.<ProcessAsync>d__2.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass.WolframAlpha\Steps\Query\RunQueryStep.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Smartass.Steps.StepBase.<ProcessAndLogAsync>d__a.MoveNext() in d:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\Steps\StepBase.cs:line 57
+2015-02-12 15:46:48,897 INFO  [10] smartass - running step RunQueryStep
+2015-02-12 15:49:43,086 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 15:55:14,577 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 15:58:54,190 INFO  [10] smartass - running step RunQueryStep
+2015-02-12 16:24:47,351 INFO  [24] smartass - running step RunQueryStep
+2015-02-12 16:31:42,992 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 17:24:56,362 INFO  [11] smartass - running step RunQueryStep
+2015-02-12 18:29:08,839 INFO  [9] smartass - running step RunQueryStep
+2015-02-12 18:30:00,759 INFO  [12] smartass - running step RunQueryStep
+2015-02-12 18:30:04,558 INFO  [9] smartass - running step RunQueryStep

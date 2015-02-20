@@ -1,0 +1,16 @@
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\Smartass.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\Smartass.pdb
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\HtmlAgilityPack.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\log4net.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\Newtonsoft.Json.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\System.Net.Http.Formatting.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\System.Web.Http.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\HtmlAgilityPack.pdb
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\HtmlAgilityPack.xml
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\log4net.xml
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\Newtonsoft.Json.xml
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\System.Net.Http.Formatting.xml
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\bin\Release\System.Web.Http.xml
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\obj\Release\Smartass.csprojResolveAssemblyReference.cache
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\obj\Release\Smartass.dll
+D:\angerico\Documents\Visual Studio 2013\Projects\Prototypes\Smartass\Smartass\obj\Release\Smartass.pdb
