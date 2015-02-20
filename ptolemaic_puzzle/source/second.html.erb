@@ -1,0 +1,72 @@
+---
+title: Second Puzzle
+---
+
+<form name="form1" method="post" style="text-align: center; margin: 30px 0;">
+  <div id="container-image" style="width: 996px; height: 919px; padding: 30px 0; border-radius: 50%; margin: 30px auto; position: relative; background-image: url('http://imgsrc.hubblesite.org/hu/db/images/hs-2010-13-a-xlarge_web.jpg'); background-size: cover; background-position: center;">
+    <div class="animated" id="image" onclick="calc()" style="width: 936px; height: 919px; border-radius: 50%; margin: 0 auto; background-image:url('/img/puzzle_2.jpg'); background-repeat:no-repeat;"></div>
+  </div>
+</form>
+<script language="JavaScript">
+
+var mistakeCount = 0;
+
+document.getElementById('image').addEventListener('webkitAnimationEnd', prepareForNext, false);
+
+function prepareForNext(e) {
+  document.getElementById('image').classList.remove('wobble');
+}
+
+function calc() {
+  if (fAB()*fBC()>0 && fBC()*fCD()>0 && fCD()*fDE()>0 && fDE()*fEA()>0 && mistakeCount < 3) {
+    window.location.replace("third.html");}
+else {
+    mistakeCount++;
+    document.getElementById('image').classList.add('wobble');
+    console.log("Not Inside");
+    if (mistakeCount == 3){
+       window.location.replace("loser.html");
+    }
+  }
+}
+function fAB() {
+    pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+return (eval((pos_y-394)*
+  (380-475) -
+  (pos_x-475)*
+  (488-394)))
+  }
+function fBC() {
+pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-488)*
+    (380-380) -
+    (pos_x-380)*
+    (628-488)))
+  }
+function fCD() {
+pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-628)*
+    (567-380) -
+    (pos_x-380)*
+    (628-628)))
+  }
+function fDE() {
+pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-628)*
+    (567-567) -
+    (pos_x-567)*
+    (488-628)))
+  }
+function fEA() {
+pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-488)*
+    (475-567) -
+    (pos_x-567)*
+    (394-488)))
+  }
+</script>

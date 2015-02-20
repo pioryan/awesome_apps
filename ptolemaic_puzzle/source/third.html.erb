@@ -1,0 +1,82 @@
+---
+title: Third Puzzle
+---
+
+<form name="form1" method="post" style="text-align: center;">
+  <div id="container-image" style="width: 996px; height: 919px; padding: 30px 0; border-radius: 50%; margin: 30px auto; position: relative; background-image: url('http://imgsrc.hubblesite.org/hu/db/images/hs-2012-49-a-xlarge_web.jpg'); background-size: cover; background-position: center;">
+    <div class="animated" id="image" onclick="calc()" style="width: 936px; height: 919px; border-radius: 50%; margin: 0 auto; background-image:url('/img/puzzle_3.jpg'); background-repeat:no-repeat;"></div>
+  </div>
+</form>
+<script language="JavaScript">
+var mistakeCount = 0;
+
+document.getElementById('image').addEventListener('webkitAnimationEnd', prepareForNext, false);
+
+function prepareForNext(e) {
+  document.getElementById('image').classList.remove('wobble');
+}
+
+function calc() {
+  if (fAB()*fBC()>0 && fBC()*fCD()>0 && fCD()*fDE()>0 && fDE()*fEF()>0 && fEF()*fFA()>0 && mistakeCount < 3) {
+    //replace the index.html with the winner.html
+    window.location.replace("winner.html");
+    console.log("inside");}
+  else {
+    mistakeCount++;
+    document.getElementById('image').classList.add('wobble');
+    console.log("Not Inside");
+    if (mistakeCount == 3){
+      window.location.replace("loser.html");
+    }
+  }
+}
+function fAB() {
+  pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+  pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-435)*
+  (498-392) -
+  (pos_x-392)*
+  (435-435)))
+}
+function fBC() {
+  pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+  pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-435)*
+  (549-498) -
+  (pos_x-498)*
+  (529-435)))
+}
+function fCD() {
+  pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+  pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-529)*
+  (498-549) -
+  (pos_x-549)*
+  (618-529)))
+}
+function fDE() {
+  pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+  pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-618)*
+  (392-498) -
+  (pos_x-498)*
+  (618-618)))
+}
+function fEF() {
+  pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+  pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-618)*
+  (340-392) -
+  (pos_x-392)*
+  (529-618)))
+}
+
+function fFA() {
+  pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+  pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-529)*
+  (392-340) -
+  (pos_x-340)*
+  (435-529)))
+}
+</script>

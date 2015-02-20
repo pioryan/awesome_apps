@@ -1,0 +1,56 @@
+---
+title: First Puzzle
+---
+
+<form name="form1" method="post" style="text-align: center;">
+  <div id="container-image" style="width: 996px; height: 919px; padding: 30px 0; border-radius: 50%; margin: 30px auto; position: relative; background-image: url('http://imgsrc.hubblesite.org/hu/db/images/hs-2012-10-c-xlarge_web.jpg'); background-size: cover; background-position: center;">
+    <div class="animated" id="image" onclick="calc()" style="width: 936px; height: 919px; border-radius: 50%; margin: 0 auto; background-image:url('/img/puzzle_1.jpg'); background-repeat:no-repeat;"></div>
+  </div>
+</form>
+<script language="JavaScript">
+var mistakeCount = 0;
+
+document.getElementById('image').addEventListener('webkitAnimationEnd', prepareForNext, false);
+
+function prepareForNext(e) {
+  document.getElementById('image').classList.remove('wobble');
+}
+
+function calc() {
+  if (fAB()*fBC()>0 && fBC()*fCA()>0 && mistakeCount < 3) {
+  window.location.replace("second.html");
+  }
+else {
+  mistakeCount++;
+  document.getElementById('image').classList.add('wobble');
+    console.log(mistakeCount);
+    if (mistakeCount == 3){
+       window.location.replace("loser.html");
+    }
+  }
+}
+function fAB() {
+    pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+return (eval((pos_y-402)*
+  (335-353) -
+  (pos_x-353)*
+  (478-402)))
+  }
+function fBC() {
+pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-478)*
+    (555-335) -
+    (pos_x-335)*
+    (509-478)))
+  }
+function fCA() {
+pos_x = event.offsetX?(event.offsetX):event.pageX-document.getElementById("image").offsetLeft;
+    pos_y = event.offsetY?(event.offsetY):event.pageY-document.getElementById("image").offsetTop;
+  return (eval((pos_y-509)*
+    (353-555) -
+    (pos_x-555)*
+    (402-509)))
+  }
+</script>
